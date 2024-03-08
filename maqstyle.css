@@ -1,0 +1,184 @@
+.modalcontainer2{
+    position:fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 0;
+    top: 0; 
+    display:none;
+    height: 100%;
+    z-index: 99;
+    overflow: auto;
+    width: 100%;
+    
+    margin:0px 10px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-size: cover;
+  }
+  
+.modal2{
+    background-image: url(Image/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  .modal2 h1{
+    font-family: Linden Hill;
+    text-align: center;
+  }
+
+  .close2{
+    padding: 3px;
+    border-radius: 10%;
+    font-family: Linden Hill;
+    font-size: 16px;
+    
+    font-weight: 600;
+    box-shadow: #76706d;
+    background-color: #fddebb;
+    border-color: #f4c38b;
+    
+   }
+   .close2:hover{
+    
+    background-color: #f9eeeb;
+    border-color: #dfbfb6;
+   }
+   .maquilladores{
+    display: flex;
+    width: 60%;
+    
+    }
+    .maquilladores img{
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        width: 100%;
+        border-radius: 5%;
+       }
+       .maqui button{
+        width: 100%;
+        margin: 10px;
+        justify-content: center;
+        display: flex;
+        background-color: transparent;
+        border-color: transparent;
+       }
+       .maqui button:hover{
+        opacity: 0.7;}
+        .maqui{
+            width: 60%;
+            display: flex;
+            
+            flex-direction: column-reverse;
+            align-items: center;
+            align-content: center;
+            justify-content: space-around;
+            
+            
+           }
+           .maqtext{
+            text-align: center; 
+            font-family: Linden Hill ;
+            font-size: 18px;
+            width: 70%;}
+     
+            
+.modalmaquilladores{
+    position:fixed;
+    
+    padding-bottom: 35px;
+    left: 0;
+    top: 0; 
+    display:none;
+    background-color: rgba(235, 183, 183, 0.87);
+    z-index: 99;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+
+  
+  .modalmaq{
+    background-color: #f9eeeb;
+    display: flex;
+   height: 70%;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5%;
+    font-family: Linden Hill;
+    
+    }
+
+    .maquilladores2 iframe{
+        display: flex;
+        width: 100%;
+        height: 60%;
+       }
+       .maquilladores2 button{
+        width: 100%;
+        font-size: 16px;
+        background-color: #f2a2b1;
+        box-shadow: #746d6a;
+        border-color: rgb(191, 132, 139);
+        display: flex;
+        font-family: Linden Hill;
+        font-weight: 400;
+        margin: 10px;
+        border: 1px;
+        justify-content: center;
+        width: 50%;
+        border-radius: 3%;
+        
+       }
+       .maquilladores2 button:hover{
+        background-color: #f4d6d9;
+        box-shadow: #746d6a;
+        border-color: #e2bfc3;}
+
+        .maquilladores2{
+            display: flex;
+            height: 80%;
+            width: 90%;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+    
+           
+        @media (max-width: 575px){
+        .maqtext {
+            text-align: center;
+            font-family: Linden Hill;
+            font-size: 14px;
+            width: 90%;
+        }}
