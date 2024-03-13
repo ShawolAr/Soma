@@ -143,7 +143,7 @@ h1{
     position:fixed;
      /* Posición fija */
     z-index: 999; /* Se situará por encima de otros elementos de la página*/
-    padding-top: 60px; /* El contenido estará situado a 100px de la parte superior */
+    padding-top: 20px; /* El contenido estará situado a 100px de la parte superior */
     left: 0;
     top: 0;
     width: 100%; /* Ancho completo */
@@ -157,7 +157,7 @@ h1{
   /* Ventana o caja modal */
   .contenido-modal {
     position: relative; /* Relativo con respecto al contenedor -modal- */
-    background-color: whitesmoke;
+    background-color: #f9eeeb;
     background-size: cover;
     margin: auto; /* Centrada */
     padding: 20px;
@@ -535,5 +535,7 @@ h1{
             font-size: 18px;}
             .modal2 h1{
                 font-size: 18px;}
+                .contenido-modal {
+                    border-radius: 6%;}
 }
   

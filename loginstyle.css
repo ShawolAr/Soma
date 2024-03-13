@@ -38,7 +38,7 @@ input{
 }
 
 [type="submit"]{
-  background: blue;
+  background: #f2a2b1;
   border-radius: 30px;
   padding: 16px 30px;
   width: 100%;
@@ -60,7 +60,7 @@ input{
 .sign-up-divider{
   
   text-align: center;
-  color: #C4C8D4;
+  color: #959aab;
   font-size: .8rem;
   letter-spacing: .5px;
   padding: 24px 0;
@@ -110,7 +110,7 @@ input{
   
   & li a{
     color: #fff;
-    vertical-align: middle;
+    
     text-align: center;
     top: 10px;
   }
@@ -118,32 +118,37 @@ input{
 }
 
 li.google{
-  background: #EA5859;
-  &:hover{
-  background: darken(#EA5859,6%);
+  
   cursor: pointer;
+  &:hover{
+    transform: scale(1.2);
+    
+    }
   }
-}
+
 
 li.facebook{
-  background: #527ED5;
-  &:hover{
-  background: darken(#527ED5,6%);
+ 
   cursor: pointer;
+  &:hover{
+    transform: scale(1.2);
+    
+    }
   }
-}
+
 
 li.twitter{
-  background: #61BDED;
-  &:hover{
-  background: darken(#61BDED,6%);
   cursor: pointer;
+  &:hover{
+  transform: scale(1.2);
+  
   }
 }
 
 
 
 .login{
+  
   text-align: center;
   margin-top: 24px;
   font-size: .8rem;
@@ -151,12 +156,13 @@ li.twitter{
   
    & a{
     margin-left: 4px;
+    font-weight: 500;
     text-decoration: none;
-    color: pink;
+    color: #f08599;
     transition: .3s;
   }
   & a:hover{
-    color: darkmagenta;
+    color: #918884;
   }
 }
 
