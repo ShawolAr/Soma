@@ -19,8 +19,78 @@
     background-color: rgba(255, 255, 255, 0.75);
     background-size: cover;
   }
+  .modalcontainer3{
+    position:fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 0;
+    top: 0; 
+    display:none;
+    height: 100%;
+    z-index: 99;
+    overflow: auto;
+    width: 100%;
+    
+    margin:0px 10px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-size: cover;
+  }
+  .modalcontainer4{
+    position:fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 0;
+    top: 0; 
+    display:none;
+    height: 100%;
+    z-index: 99;
+    overflow: auto;
+    width: 100%;
+    
+    margin:0px 10px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-size: cover;
+  }
   
 .modal2{
+    background-image: url(Image/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  .modal3{
+    background-image: url(Image/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  .modal4{
     background-image: url(Image/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,6 +108,14 @@
     font-family: Linden Hill;
     text-align: center;
   }
+  .modal3 h1{
+    font-family: Linden Hill;
+    text-align: center;
+  }
+  .modal4 h1{
+    font-family: Linden Hill;
+    text-align: center;
+  }
 
   .close2{
     padding: 3px;
@@ -51,7 +129,41 @@
     border-color: #f4c38b;
     
    }
+   .close3{
+    padding: 3px;
+    border-radius: 10%;
+    font-family: Linden Hill;
+    font-size: 16px;
+    
+    font-weight: 600;
+    box-shadow: #76706d;
+    background-color: #fddebb;
+    border-color: #f4c38b;
+    
+   }
+   .close4{
+    padding: 3px;
+    border-radius: 10%;
+    font-family: Linden Hill;
+    font-size: 16px;
+    
+    font-weight: 600;
+    box-shadow: #76706d;
+    background-color: #fddebb;
+    border-color: #f4c38b;
+    
+   }
    .close2:hover{
+    
+    background-color: #f9eeeb;
+    border-color: #dfbfb6;
+   }
+   .close3:hover{
+    
+    background-color: #f9eeeb;
+    border-color: #dfbfb6;
+   }
+   .close4:hover{
     
     background-color: #f9eeeb;
     border-color: #dfbfb6;
