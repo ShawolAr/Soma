@@ -459,8 +459,50 @@ h1{
     background-color: #f9eeeb;
     border-color: #dfbfb6;
    }
+.footer{
+    background-image: url(Image/banner2.png);
+    
+    position: relative;
+    top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footcontainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.footlogo{
+    width: 150px;
+    padding: 10px;
+}
+.footlogo img{
+width: 100%;}
+
+.disclaimer{
+    text-align: center;
+    font-style: 'Linder Hill';
+    font-size: 1.25rem;
+    color: #76706d;
+    width: 50%;
+}
+.redes{
+    padding: 10px;
+}
+.redes img{
+    padding: 3px;
+}
+.redes img:hover{
+    
+    transform: scale(1.2);
+}
+
 
 @media (max-width: 960px) {
+    body{display: grid;}
   .parr1{
     font-size: 18px;
   }
@@ -535,7 +577,29 @@ h1{
             font-size: 18px;}
             .modal2 h1{
                 font-size: 18px;}
+                .modal3 h1{
+                    font-size: 18px;}
+                    .modal4 h1{
+                        font-size: 18px;}
                 .contenido-modal {
                     border-radius: 6%;}
+
+        .footcontainer{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .footlogo img{
+            width: 40%;}
+           .redes img{
+            width: 25px;
+           }
+           .footlogo {
+            align-self: end;
 }
-  
+.disclaimer{
+    font-size: 0.8rem;
+}
+}
